@@ -5,6 +5,9 @@ permalink: /research/
 id: research
 ---
 Main research interest and themes:
-# Quantum compiler and circuit design
-
-...
+* Quantum compilers and circuit design
+* Quantum algorithms
+* Quantum optimization
+* Quantum machine learnign and data analysis
+* Matrix computations
+* Parallel and distributed computation
