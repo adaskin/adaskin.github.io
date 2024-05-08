@@ -30,6 +30,7 @@ github_username:  adaskin
 orcid: 0000-0002-1497-5031
 # Build settings
 theme: minima
+
 plugins:
   - jekyll-feed
 
