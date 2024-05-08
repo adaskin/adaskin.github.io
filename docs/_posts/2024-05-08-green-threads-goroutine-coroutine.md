@@ -20,15 +20,15 @@ In the above multithread scenario, each thread we create in our program indicate
 
 `Green threads` are those software threads that do not necessarily have one-to-one mapping. That means we have a few kernel threads: Let's say $nk$.
 And we have a few software (user side) threads: Let's say $nu$.
-The basic property is that we generally have $nu \geq nk$. This means we have to have a thread scheduler that schedules these software threads to the kernel threads in user space. The scheduler is generally defined in the runtime of the programming languages.
+The basic property is that we generally have $nu \geq nk$. This means we have to have a thread scheduler that schedules these software threads to the kernel threads in user space. The scheduler is generally defined in the runtime scheduler of the programming languages.
 We call these software threads as `green threads`.
-Since multiple green threads can run in the same stack frame allocated for the kernel side thread, green threads are also called `stackless threads` and the regular threads which have one-to-one mapping are called `stackful threads` in this context.
+Since multiple green threads can run in the same stack frame allocated for the kernel side thread, green threads are generally "stackless" and the regular threads which have one-to-one mapping are "stackful" threads in this context.
 
 
 `Goroutines` are the green threads that are implemented for `Go` programming language.
 
 ## Coroutines
-Coroutines are not totally related to the definitions we have above. It is a programming design pattern where we indicate parts a program can be suspended and execution can be started concurrently (independently) with different data. This design pattern is used to do cooperative multitasking.
+Coroutines are somehow related to the definitions we have above. It is a programming design pattern where we indicate parts a program can be suspended and execution can be started concurrently (independently) with different data. This design pattern is used to do cooperative multitasking.
 Below is an example with Python generators:
 ```python
 import string
