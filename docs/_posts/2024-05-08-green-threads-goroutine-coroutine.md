@@ -88,7 +88,7 @@ class thread_sync:
 
 def generator_function():
     for i in range(100):
-        given = yield i
+        given = (yield i)
         time.sleep(0.1)
         print("threadid:{}, given char:{}, prev yield:{}"
                 .format(threading.current_thread().ident, given, i))
