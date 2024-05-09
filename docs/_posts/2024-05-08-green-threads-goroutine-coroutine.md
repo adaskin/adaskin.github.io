@@ -6,7 +6,7 @@ categories: technical systems programming
 tags: multithread programming greenthreads coroutines goroutines
 ---
 {% include mathjax.html %}
-In this post, I am going to give brief descriptions for the terms `green threads, goroutines, coroutines` that are easily confused  when they are seen in multithread programming context.
+In this post, I am going to give my brief understandings for the terms `green threads, goroutines, coroutines` that are easily confused  when they are seen in multithread programming context.
 
 ## Processes and Threads
 From a process point of view, its memory segmented as text (for its instructions)-data(heap (for dynamic memory), uninitialized, initialized data part)-and stack. In each process, when there are function calls, they are executed by creating function frames that include parameters, local variables, and return values. Therefore, for each process, the top of the stack needs to be tracked to be able to determine which function frames and scopes the process is currently executing and which reachable variables are accesible from that scope.
@@ -15,7 +15,7 @@ As a result, for each process, there is at least a `stack pointer` that indicate
 In a Unix environment a process or a thread  can be created by using the same system call: a new process is created as a child process of the current process by using `fork()` or `clone()` system calls. As the name indicates, when we create a new process, basically we are creating a clone of its whole memory (stack-heap-data-text).
 On the other hand, we create threads for a process by limiting this operation only to  **stack**: That means we are kind of dividing the process's stack into multiple segments where we have separate `stack pointers` and `program counters` to run more than one function frame at the same time. Therefore, they are kind of lightweight processes because only their stack frames are different.
 
-## Green Threads and Goroutines
+## Green Threads (fibers) and Goroutines
 In the above multithread scenario, each thread we create in our program indicates an underlying kernel side thread (or a lightweight process). That means we have one-to-one mapping from each software thread to a kernel side thread.
 
 `Green threads` are those software threads that do not necessarily have one-to-one mapping. That means we have a few kernel threads: Let's say $nk$.
