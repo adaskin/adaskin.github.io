@@ -16,20 +16,22 @@ In a Unix environment a process or a thread  can be created by using the same sy
 On the other hand, we create threads for a process by limiting this operation only to  **stack**: That means we are kind of dividing the process's stack into multiple segments where we have separate `stack pointers` and `program counters` to run more than one function frame at the same time. Therefore, they are kind of lightweight processes because only their stack frames are different.
 
 ## Green Threads and Goroutines
-In the above multithread scenario, each thread we create in our program indicates an underlying kernel side thread (a lightweight process). That means we have one-to-one mapping from each software thread to a kernel side thread.
+In the above multithread scenario, each thread we create in our program indicates an underlying kernel side thread (or a lightweight process). That means we have one-to-one mapping from each software thread to a kernel side thread.
 
 `Green threads` are those software threads that do not necessarily have one-to-one mapping. That means we have a few kernel threads: Let's say $nk$.
 And we have a few software (user side) threads: Let's say $nu$.
-The basic property is that we generally have $nu \geq nk$. This means we have to have a thread scheduler that schedules these software threads to the kernel threads in user space. The scheduler is generally defined in the runtime scheduler of the programming languages.
-We call these software threads as `green threads`.
-Since multiple green threads can run in the same stack frame allocated for the kernel side thread, green threads are generally "stackless" and the regular threads which have one-to-one mapping are "stackful" threads in this context.
+The basic property is that we generally have $nu \geq nk$. This means we have to have a thread scheduler that schedules these software threads to the kernel threads in user space. The scheduler is generally defined in the runtime library or virtual machine of the programming languages.
+We call these software threads as `green threads` or `fibers`. 
 
 
 `Goroutines` are the green threads that are implemented for `Go` programming language.
 
 ## Coroutines
 Coroutines are somehow related to the definitions we have above. It is a programming design pattern where we indicate parts a program can be suspended and execution can be started concurrently (independently) with different data. This design pattern is used to do cooperative multitasking.
-Below is an example with Python generators:
+They do not provide multithreading themselves. If they are scheduled to run on separate stack frames, they are called `stackful coroutines`. Stackful coroutines can be suspended and executed from the same point. If they are run inside the host frame, then they are called `stackles coroutines`. 
+Green threads (fibers) can be considered running `stackful coroutines` since they describe tasks with a stack frame. 
+
+Below is an example of a couroutine with Python generators:
 ```python
 import string
 def generator_function():
@@ -105,6 +107,11 @@ for val in yield_values:
 
 ```
 As a final remark note that coroutines are much more than the simple generator we have designed. And they can be very useful for asynchronous tasks. See [python doc](https://docs.python.org/3/library/asyncio-task.html) for explanation.
+
+Discussion on the usefullnes of fibers:<br/>
+https://open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1364r0.pdf <br/>
+https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p0866r0.pdf <br/>
+https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1520r0.pdf  <br/>
 
 
 
