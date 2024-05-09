@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 id: teaching
 ---
-I have taught a variety of computer science courses, including data mining (in Python), system programming (in Unix), operating systems (Linux kernel), data structures and algorithms, algorithm design and analysis, compilers, discrete mathematics, introduction to programming (in Java, C, Python, or Matlab) at the Computer Engineering Department of Istanbul Medeniyet University.
+I have taught a variety of computer science courses, including data mining (in Python), system programming (in Unix), operating systems (Linux kernel), data structures and algorithms, algorithm design and analysis, compilers, discrete mathematics, introduction to programming (in Java, C, Python, or Matlab)...
 ## Lecture Notes
 [System Programming (in Unix)](https://github.com/adaskin/teaching-sysprog)<br />
 [Operating Systems](https://github.com/adaskin/teaching-os) <br />
