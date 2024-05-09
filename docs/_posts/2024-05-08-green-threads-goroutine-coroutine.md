@@ -6,6 +6,7 @@ categories: technical systems programming
 tags: multithread programming greenthreads coroutines goroutines
 ---
 {% include mathjax.html %}
+
 In this post, I am going to give my brief understandings for the terms `green threads, goroutines, coroutines` that are easily confused  when they are seen in multithread programming context.
 
 ## Processes and Threads
@@ -109,9 +110,9 @@ for val in yield_values:
 As a final remark note that coroutines are much more than the simple generator we have designed. And they can be very useful for asynchronous tasks. See [python doc](https://docs.python.org/3/library/asyncio-task.html) for explanation.
 
 Discussion on the usefullnes of fibers:<br/>
-https://open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1364r0.pdf <br/>
-https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p0866r0.pdf <br/>
-https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1520r0.pdf  <br/>
+![https://open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1364r0.pdf](https://open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1364r0.pdf) <br/>
+![https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p0866r0.pdf](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p0866r0.pdf) <br/>
+![https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1520r0.pdf](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1520r0.pdf)  <br/>
 
 
 
