@@ -34,7 +34,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
-google_analytics: G-TK95NJTFFL
+
 include:
   - _pages
   - _includes
