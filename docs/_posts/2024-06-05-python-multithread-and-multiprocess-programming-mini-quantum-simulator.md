@@ -18,7 +18,7 @@ Here, when ``lock`` is true, it is created as a shared memory and it returns a *
 
 In some cases, it makes sense to use our own lock: For instance in our mini quantum simulator, while computing probabilities, at the beginning we just read the vector elements. Therefore, there is no need for synchronization at the beginning. 
 In these case, you can create a shared memory without a lock and use your own Lock() object for the synchronization.
-```Python
+```python
 shm = multiprocessing.Array(ctypes.c_double, N, lock=False)
 ...
 lock = multiprocessing.Lock()
@@ -28,7 +28,7 @@ lock.acquire()
 ...#critical section
 lock.release()
 ```
-For complete example see the file ``qusimmultiprocwithshm.py`` in the [repo](https://github.com/adaskin/a-simple-quantum-simulator). Below is the implementation of quantum probabilities:
+For complete example see the file ``qusimmultiprocwithshm.py`` in the [repo](https://github.com/adaskin/a-simple-quantum-simulator). Below is the implementation for computing probabilities of a qubit:
 ```python
 def worker_prob_of_a_qubit(psi, start, end, qshift, fshared):
     flocal = np.zeros(2)
@@ -118,7 +118,7 @@ def prob_of_a_qubit_multiprocess_with_pipe(psi, qubit):
 
 # Notes on multithreading
 For those who used to using multithread programming in C/C++ or Java-C#, Python multithreading may be a little surprising at the beginning: Because of global interpreter lock on Python objects(see [GIL](https://wiki.python.org/moin/GlobalInterpreterLock)), if your multithread program( whether it uses threadpools or regular threading) is doing more computations than waiting data on I/O, then it does not provide any speed-up (yes I've also tried this on my mini quantum simulator in different versions :neutral_face:.  So the regular multiprocessing lib described above should be used for  multithreading of CPU bound tasks.).
-In comparison to [threadpools](https://docs.python.org/3/library/concurrent.futures.html) or implementing with lock on memory, I have observed that the following implementation runs faster **even though it is still slower than serial implementation**:
+In comparison to [threadpools](https://docs.python.org/3/library/concurrent.futures.html) or implementing with lock on memory,  the following implementation runs faster since it does not have lock between threads ( **even though it is still slower than serial implementation because of GIL**):
 ```python
 class ProbThread(Thread):
     def __init__(self, psi, start, end, qshift):
