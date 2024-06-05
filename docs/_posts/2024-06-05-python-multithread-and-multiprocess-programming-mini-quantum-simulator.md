@@ -6,7 +6,7 @@ categories: technical systems programming
 tags: quantum simulator multithread multiprocess programming python
 ---
 
-Recently, I've put a public mini quantum simulator repo on [github](https://github.com/adaskin/a-simple-quantum-simulator). While it is desirable to use quantum simulator packages such as [PennyLane](https://www.pennylane.com/) or [Qiskit](https://www.ibm.com/quantum/qiskit), sometimes as a researcher, it is best to have our own simulator code that we can try different things on it.
+Recently, I've put a public mini quantum simulator repo on [github](https://github.com/adaskin/a-simple-quantum-simulator). While it is desirable to use quantum simulator packages such as [PennyLane](https://www.pennylane.com/) or [Qiskit](https://www.ibm.com/quantum/qiskit), sometimes as a researcher, it is best to have our own simulator code so that we can try different things on it.
 While combining my old python codes, I've decided to put also a multiprocess version of the simulator. The followings are my observations of multihreading and multiprocessing in Python for my quantum simulator.
 
 # Multiprocessing in Python

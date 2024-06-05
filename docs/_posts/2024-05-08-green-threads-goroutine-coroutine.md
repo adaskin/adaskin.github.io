@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Green Threads, Goroutines, and Coroutines"
+title:  "Green threads, goroutines, and coroutines"
 date:   2024-05-08 12:31:19 +0300
 categories: technical systems programming
 tags: multithread programming greenthreads coroutines goroutines
