@@ -11,12 +11,12 @@ While combining my old python codes, I've decided to put also a multiprocess ver
 
 # Multiprocessing in Python
 If your familiar with low level multiprocessing, then many familiar concepts are provided as higher level library in Python [multiprocessing](https://docs.python.org/3/library/multiprocessing.html). For inter process communication (data transfer), it provides shared_memory and pipes. For shared memory, it is enough to create a shared memory (either an array or a value) with a lock for synchronization:
-```Python
+```python
 shm = multiprocessing.Array(ctypes.c_double, N, lock=True)
 ``` 
 Here, when ``lock`` is true, it is created as a shared memory and it returns a **synchronized wrapper** so all reads and writes on the array are synced. You can also use ``shm.acquire()...shm.release()`` explicitly to acquire and release the lock.
 
-In some cases, it makes sense to use your own lock: For instance in our mini quantum simulator, while computing probabilities, at the beginning we just read the vector elements. Therefore, there is no need for synchronization at the beginning. 
+In some cases, it makes sense to use our own lock: For instance in our mini quantum simulator, while computing probabilities, at the beginning we just read the vector elements. Therefore, there is no need for synchronization at the beginning. 
 In these case, you can create a shared memory without a lock and use your own Lock() object for the synchronization.
 ```Python
 shm = multiprocessing.Array(ctypes.c_double, N, lock=False)
@@ -29,7 +29,7 @@ lock.acquire()
 lock.release()
 ```
 For complete example see the file ``qusimmultiprocwithshm.py`` in the [repo](https://github.com/adaskin/a-simple-quantum-simulator). Below is the implementation of quantum probabilities:
-```Python
+```python
 def worker_prob_of_a_qubit(psi, start, end, qshift, fshared):
     flocal = np.zeros(2)
     for j in range(start, end):
@@ -75,7 +75,7 @@ def prob_of_a_qubit(psi, qubit):
 ```
 ## Notes on pipes
 Note that we can also use pipes to get the return value of the processes. **However, when the dimension of the return value is high and you are able to use shared memory, using pipes would not make much sense since it needs to send/recv huge chunk of data between processes**. As an example for pipes, we can compute partial probability for a qubit by using following function:
-```Python
+```python
 def thread_partial_prob_with_pipe(psi, start, end, qshift, pipe):
     flocal = np.zeros(2)    
     for j in range(start, end):
@@ -86,7 +86,12 @@ def thread_partial_prob_with_pipe(psi, start, end, qshift, pipe):
     return flocal
 ```
 In the calling function, we use other end of the pipe to read the data send by any process.
-```Python
+```python
+def prob_of_a_qubit_multiprocess_with_pipe(psi, qubit):
+    N = len(psi)
+    n = int(np.log2(N))
+    fshared = np.zeros(2)
+    qshift = n - qubit -1
     processes = []
     pipes = []
     #for each thread assign part of the mem
@@ -114,7 +119,7 @@ In the calling function, we use other end of the pipe to read the data send by a
 # Notes on multithreading
 For those who used to using multithread programming in C/C++ or Java-C#, Python multithreading may be a little surprising at the beginning: Because of global interpreter lock on Python objects(see [GIL](https://wiki.python.org/moin/GlobalInterpreterLock)), if your multithread program( whether it uses threadpools or regular threading) is doing more computations than waiting data on I/O, then it does not provide any speed-up (yes I've also tried this on my mini quantum simulator in different versions :neutral_face:.  So the regular multiprocessing lib described above should be used for  multithreading of CPU bound tasks.).
 In comparison to [threadpools](https://docs.python.org/3/library/concurrent.futures.html) or implementing with lock on memory, I have observed that the following implementation runs faster **even though it is still slower than serial implementation**:
-```Python
+```python
 class ProbThread(Thread):
     def __init__(self, psi, start, end, qshift):
         self.flocal = np.zeros(2)
@@ -155,7 +160,7 @@ def prob_of_a_qubit_with_ProbThread_run(psi, qubit):
 ```
 
 We can also implement with lock as we have done in multiprocessing:
-```Python
+```python
 def thread_partial_prob_with_lock(psi, start, end, qshift,fshared,lock):
     flocal = np.zeros(2)
     for j in range(start, end):
@@ -195,7 +200,7 @@ def prob_of_a_qubit_with_lock(psi, qubit):
     return fshared
 ```
 Or we can use thread pools. Note that this is the slowest implementation: 
-```Python
+```python
 def thread_partial_prob(psi, start, end, qshift):
     flocal = np.zeros(2)
     for j in range(start, end):
