@@ -33,6 +33,7 @@ theme: minima
 
 plugins:
   - jekyll-feed
+  - jemoji
 google_analytics: G-TK95NJTFFL
 include:
   - _pages
