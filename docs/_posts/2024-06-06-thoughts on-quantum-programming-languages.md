@@ -2,7 +2,7 @@
 layout: post
 title:  "Thoughts on quantum programming languages"
 date:   2024-06-06 12:31:19 +0300
-categories: qc
+categories: quantum-computing
 tags: quantum programming language
 ---
 {% include mathjax.html %}
