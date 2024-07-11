@@ -2,7 +2,7 @@
 layout: post
 title:  "Green threads, goroutines, and coroutines"
 date:   2024-05-08 12:31:19 +0300
-categories: technical systems programming
+categories: hpc
 tags: multithread programming greenthreads coroutines goroutines
 ---
 {% include mathjax.html %}
