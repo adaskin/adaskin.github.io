@@ -2,7 +2,7 @@
 layout: post
 title:  "Python multithread and multiprocess programming: Mini quantum simulator"
 date:   2024-06-05 12:31:19 +0300
-categories: quantum-computing
+categories: qc
 tags: quantum simulator multithread multiprocess programming python
 ---
 
