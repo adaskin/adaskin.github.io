@@ -4,6 +4,7 @@ title:  "Python multithread and multiprocess programming: Mini quantum simulator
 date:   2024-06-05 12:31:19 +0300
 categories: quantum-computing
 tags: quantum simulator multithread multiprocess programming python
+comments: true
 ---
 
 Recently, I've put a public mini quantum simulator repo on [github](https://github.com/adaskin/a-simple-quantum-simulator). While it is desirable to use quantum simulator packages such as [PennyLane](https://www.pennylane.com/) or [Qiskit](https://www.ibm.com/quantum/qiskit), sometimes as a researcher, it is best to have our own simulator code so that we can try different things on it.
@@ -230,3 +231,24 @@ def prob_of_a_qubit_with_pool(psi, qubit)
             fshared[i] += flocal[i] 
     return fshared
 ```
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://adaskin.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
