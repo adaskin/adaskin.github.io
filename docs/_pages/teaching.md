@@ -7,7 +7,7 @@ id: teaching
 I have taught a variety of computer science courses, including data mining (in Python), system programming (in Unix), operating systems (Linux kernel), data structures and algorithms, algorithm design and analysis, compilers, discrete mathematics, introduction to programming (in Java, C, Python, or Matlab)...
 ## Lecture Notes
 [System Programming (in Unix)](https://sites.google.com/view/adaskin/system-programming)<br />
-[Operating Systems](https://github.com/adaskin/teaching-os) <br />
+[Operating Systems](https://adaskin.github.io/bil301os/) <br />
 [Compiler Design](https://sites.google.com/view/adaskin/compiler) <br />
 [Data Structures and Algorithms](https://sites.google.com/view/adaskin/data-structures-and-algorithms)<br />
 [Data mining](https://github.com/adaskin/teaching-data-mining) <br />
