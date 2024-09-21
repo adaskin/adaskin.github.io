@@ -8,19 +8,21 @@ comments: true
 ---
 {% include mathjax.html %}
 
-There are a few quantum programming languages (QPL). While looking at one of the promising QPL [Silq](https://silq.ethz.ch) and its comparison to other QPLs, I have thought how I would define a QPL. 
+There are a few quantum programming languages (QPL). While looking at one of the promising QPL [Silq](https://silq.ethz.ch) and its comparison to other QPLs, I have thought how I would define some basics for a QPL. 
 
 
 
-A generic programming language compiler includes syntax, semantic, optimization, and machine code generation. Therefore the ultimate goal of a QPL is to generate **accurate** quantum assembly code(e.g. QASM) from a given language.
+A generic compiler for a PL consists of syntax, semantic, optimization, and machine code generation parts that generates accurate assembly code the desired computation. 
+Therefore the ultimate goal of a QPL should be also the ability to generate **accurate** quantum assembly code(e.g. QASM) from a given program.
  While doing this, one of the difficulty is to distinguish classical user-space code from quantum reality. 
  Since we write the code on classical machine, I think it should retain the basics such as constants, strings, loops and conditions. 
  And the compiler should remove the classical part of the code from the generated quantum code (Maybe it is for this reason, most people use quantum computer libraries such as Qiskit).
 
 In addition to these basics, to be able to write fast code, I think the followings are the essentials for a QPL:
 ## Variables
-`Register`, and `Operation`. registers or a qubit. And we should be able to give their initial value (it can be typed or duck-typed language).
-For instance, the following C language family syntax can be used:
+We should be able to define variables such as `Register` type for a register or a qubit and `Operation` type for operations.  
+Also, we should be able to give their initial value (it can be typed or duck-typed language).
+For instance, the following C language family syntax can be used for these variables:
 ```
 x = 1, y = 0;
 Qubit a, b = 0, c = 1; 
@@ -36,13 +38,13 @@ Operation A = [[1, 2],[3, 4]];
 Operation B = [1 2;3 4];
 Operation C = MyOperation()
 ```
-We can also define new Operation class by using inheritance.
+We can also define new Operation class by using the inheritance.
 ```
 MyOperation:Operation{
 }
 ```
- Since quantum computing is mainly a matrix-vector transformation, I think the  main theme for a QPL should focus on the following three:
-- Qubit operations: These applies single operation to a qubit, e..g:
+ Since quantum computing is mainly a matrix-vector transformation, I think the  main theme for a QPL should focus on the following three type of operations:
+- Qubit operations: These applies a single operation to a qubit, e..g:
     - `X.apply(q1)` applies an `X` to a register or qubit. 
     - Or controlled operations such as `X.apply(target, control)`.
 - Vector operations: Applies an operation to part or parts of vector:  
@@ -52,7 +54,7 @@ MyOperation:Operation{
     - `C.swap(i,j)`
 
 ## Measurement
-Measurement is kind of an operation too. Therefore, a class with a few related methods can be enough.
+Measurement is a kind of an operation too. Therefore, a class with a few related methods can be enough.
 
 ...
 
