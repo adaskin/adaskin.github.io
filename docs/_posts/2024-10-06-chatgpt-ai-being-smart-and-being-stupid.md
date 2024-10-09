@@ -27,7 +27,7 @@ That means we would also expect mistakes we commonly make to be seen in these mo
 It may be also possible to apply one correct commonality to another to get a better outcome. That may explain if we can find new discoveries in science.
 
 
-On the other hand more surprisingly, these models teach us that **being smart** in life mostly means choosing the most accepted/common way among the seen possibilities.
+On the other hand more surprisingly, these models teach us that **being smart** in life often means choosing the most accepted/common way among the seen possibilities.
 In a more concise way we can comfortably say that "history repeats itself" and "history is a great teacher" for us humans.
 Maybe **being not stupid** also means not doing the most unexpected in most situations and not repeating the same mistakes and expecting a different outcome.
 
