@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "War, conflict, religion: being good or being bad"
+title:  "War, conflict, religion: being good"
 date:   2024-12-21 07:00:00 +0300
 categories: politics
 tags: religion politics
