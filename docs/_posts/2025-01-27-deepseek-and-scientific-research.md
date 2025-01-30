@@ -31,6 +31,6 @@ To run on local version,
 which is simpler if you want to set-up a server.
 
 Note that running ollama on docker requires extra a few GB RAM because of additionally running a container.
-Also note that full version of 463B parameters requires more than  GPU with 400GB vram.
+Also note that full version of 471B parameters requires more than  GPU with 400GB vram.
 
 {% include disqus.html %}
