@@ -30,7 +30,7 @@ Main research interest and themes:
         <p class="meta">By {{ paper.author }} • {{ paper.date | date: "%B %Y" }}</p>
         <p class="abstract">{{ paper.abstract }}</p>
         {% if paper.link %}
-        <a href="{{ paper.link }}">Read Paper on Arxiv</a>
+        <a href="{{ paper.link }}">Read full paper</a>
         {% endif %}
         {% if paper.cite %}
         <p class="meta">{{ paper.cite }}</p>
