@@ -11,3 +11,30 @@ Main research interest and themes:
 * Quantum machine learning and data analysis
 * Matrix computations
 * Parallel and distributed computation
+
+**Research Papers**  
+---
+layout: page
+title: Research Papers
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+
+<div class="research-papers">
+  {% for paper in site.research_papers %}
+    <div class="paper-card">
+      {% if paper.image %}
+      <img src="{{ paper.image }}" alt="{{ paper.title }}" class="paper-image">
+      {% endif %}
+      <div class="paper-content">
+        <h3>{{ paper.title }}</h3>
+        <p class="meta">By {{ paper.author }} • {{ paper.date | date: "%B %Y" }}</p>
+        <p class="abstract">{{ paper.abstract }}</p>
+        {% if paper.pdf %}
+        <a href="{{ paper.pdf }}" class="button">Read Paper</a>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
