@@ -4,6 +4,9 @@ title: Research
 permalink: /research/
 id: research
 ---
+
+<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+
 Main research interest and themes:
 * Quantum compilers and circuit design
 * Quantum algorithms
@@ -13,12 +16,8 @@ Main research interest and themes:
 * Parallel and distributed computation
 
 **Research Papers**  
----
-layout: page
-title: Research Papers
----
 
-<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+
 
 <div class="research-papers">
   {% for paper in site.research_papers %}
