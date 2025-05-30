@@ -21,7 +21,7 @@ I think with the rise of internet and now AI, most knowledge based skills and ta
 
 When this is combined with the problems inherent in capitalism and the global economic system—where wealth is merely accumulated through speculating/betting on different things rather than producing anything with value and people work harder just to meet  basic needs (water, food, shelter etc.)—I grow more pessimistic about the future. People with little experience or knowledge, who only have some understanding of concepts but lack a deeper understanding of human decency and moral principles, could lead societies into significant turmoil. 
 
-I hope I am wrong but I believe the most significant thing AI will do is to add more to the greed of the wealthy.
+I hope I am wrong but I believe the most significant thing AI will do is to just add more to the greed of the wealthy.
 
 
 {% include disqus.html %}
