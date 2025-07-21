@@ -14,11 +14,13 @@ Main research interest and themes:
 * Quantum machine learning and data analysis
 * Matrix computations
 * Parallel and distributed computation
+  
 
-**Research Papers**  
+**Tutorials** 
+- [A brief tutorial on grouping set elements on quantum computers](https://github.com/adaskin/quantum-grouping-set-elements)  
+  - *it generates groups as quantum states in O(1) time*
 
-
-
+**Latest Research Papers**   
 <div class="research-papers">
   {% for paper in site.research_papers %}
     <div class="paper-card">
