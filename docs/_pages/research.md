@@ -17,7 +17,7 @@ Main research interest and themes:
   
 
 **Tutorials** 
-- [A brief tutorial on grouping set elements on quantum computers](https://github.com/adaskin/quantum-grouping-set-elements)  
+- [A brief tutorial on grouping set elements on quantum computers](https://adaskin.github.io/quantum-grouping-set-elements)  
   - *it generates groups as quantum states in O(1) time*
 
 **Latest Research Papers**   

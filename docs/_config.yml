@@ -34,10 +34,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jemoji
-  - jekyll-katex
 
-features:
-  - math
 google_analytics: G-TK95NJTFFL
 include:
   - _pages
