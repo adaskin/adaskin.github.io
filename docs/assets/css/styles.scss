@@ -91,3 +91,13 @@
   }
 }
 }
+/* Prevent flash of unstyled math */
+.MathJax:not([display]) {
+    display: inline !important;
+    overflow: auto;
+}
+
+/* Fix matrix rendering */
+.mjx-chtml {
+    overflow-x: visible !important;
+}
