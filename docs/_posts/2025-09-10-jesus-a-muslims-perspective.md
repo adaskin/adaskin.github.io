@@ -60,11 +60,10 @@ Well, it took a while to come to Prophet Jesus. Before getting to Prophet Jesus,
   - although we believe prophets can do some things without a specific order from God, they do not follow their inner desires. If they make a mistake in their decisions, God corrects them. They do not commit any sin or go against God’s order. They only make small mistakes because of errors in judgement. That means everything done or said by a prophet which is not corrected by him later is confirmed by God.
   - all prophets were the best people among their people. They were the best in their deeds.
   - if you do not love every prophet and equally believe in his teachings, you cannot be a Muslim. In Islam, you have to love all prophets more than yourself.
+    **Do we believe in the Bible then?**
+    We believe (and it is also a historical fact) that the guidance Allah gave to Moses and later to Jesus was distorted (some new things were added, and some things were rewritten or discarded). There are parts that contain Allah’s true message, and some parts are distorted. If we hear something from the Bible, if it is not obviously goes against Islamic beliefs, we neither deny nor accept it. Because, it may be the true teaching of God or may not.
 
-**Do we believe in the Bible then?**
-We believe (and it is also a historical fact) that the guidance Allah gave to Moses and later to Jesus was distorted (some new things were added, and some things were rewritten or discarded). There are parts that contain Allah’s true message, and some parts are distorted. If we hear something from the Bible, if it is not obviously goes against Islamic beliefs, we neither deny nor accept it. Because, it may be the true teaching of God or may not.
-
-This means we as Muslims have to believe that Jesus was a perfect human being, believe all his teachings, and show the utmost respect when we call his name and the name of his mother, Mary (Maria).
+In conclusion, we as Muslims have to believe that Jesus was a perfect human being, believe all his teachings, and show the utmost respect when we call his name and the name of his mother, Mary (Maria).
 
 #### Mary (PBUH)
 As Muslims, we believe all mothers, wives, and daughters of prophets are our mothers. We have to show the utmost respect to them. When we talk about Eve, Hagar, Sarah, Aisha, Fatima, or Mary, peace be upon them, we call them Mother Eve, Mother Mary, etc. And we show them equally utmost respect. We believe they were also the best among people.
