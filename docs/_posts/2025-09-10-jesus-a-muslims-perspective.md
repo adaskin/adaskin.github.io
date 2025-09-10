@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Emperor Qin Shi Huang: Burning books and executing scholars"
-date:   2025-05-30 07:00:00 +0300
-categories: AI
-tags: AI
+title:  "Jesus (PBUH): A Muslim’s Perspective"
+date:   2025-09-10 07:00:00 +0300
+categories: politics
+tags: religion politics
 comments: true
 ---
 {% include mathjax.html %}
