@@ -8,14 +8,12 @@ comments: true
 ---
 {% include mathjax.html %}
 
-## Jesus (PBUH): A Muslim’s Perspective
-
 **Why am I writing this?**
 Looking at the genocide happening to Palestinians, I wonder what we as humans are capable of. Then I wonder what kind of anger or motivation a human can have to inflict this pain on another life.
 It is easy to pick a side when you are a spectator to a king's fight with peasants. The stakes for picking the peasants' side are very high. Raising our voices has serious consequences that can impact people's livelihoods. While there are a few brave souls on the peasants’ side who are not afraid of any consequences, most of us (I am one of them) are afraid of losing our jobs, status, being jailed, or losing our immigration and social statuses.
 
 Among my worldly fears, I then wonder what the motivation is for the king and his supporters, including most of the countries in the West and the Islamic world, to support this fight.
-The first thing that comes to mind is race: maybe the motivation is based on race. But, as I wrote in my previous post, even if they are pure Arabs, most Arabs are also descendants of Prophet Abraham and, as Allah says, cousins of Jews. We know that there are all kinds of races in this region and I doubt there is a pure race (whatever "pure" means). We also know that many people in the history of the region converted to Islam. So there are many Muslim descendants of Jews.
+The first thing that comes to mind is race: maybe the motivation is based on race. But, as I wrote in [my previous post](2024-12-21-war-conflict-religion-being-good.md), even if they are pure Arabs, most Arabs are also descendants of Prophet Abraham and, as Allah says, cousins of Jews. We know that there are all kinds of races in this region and I doubt there is a pure race (whatever "pure" means). We also know that many people in the history of the region converted to Islam. So there are many Muslim descendants of Jews.
 
 Some other motivations come to my mind, like the Riviera project on the coast of the Mediterranean Sea, natural gas reserves off the coast of Gaza, the transit route from Asia to the Mediterranean, the war economy (some people think the West needs wars to improve its economy; of course, similarly, some need the West in a war to weaken its pressure on them), etc.
 
