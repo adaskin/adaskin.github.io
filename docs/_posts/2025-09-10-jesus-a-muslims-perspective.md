@@ -82,7 +82,7 @@ In Islam, we believe all prophets showed some form of miracle by the permission 
 And many others such as healing blind, resurrecting the dead, etc.
 
 #### Crucifixion in Islam
-We believe Jesus was not crucified, and he is not dead! He was raised to the second heaven and is still alive (we believe there are seven heavens (*sama*), and the universe we see is the first heaven). He will come back, descend, live as a Muslim, and slay the Dajjal (Antichrist).
+We believe Jesus was not crucified, and he is not dead! Another person (the one who informed on his whereabouts) was made to resemble him and was crucified in his place. He was raised to the second heaven and is still alive (we believe there are seven heavens (*sama*), and the universe we see is the first heaven). He will come back, descend, live as a Muslim, and slay the Dajjal (Antichrist).
 > [4:157](https://quran.com/4?startingVerse=157&translations=131%2C19%2C20%2C22): *And [for] their saying, "Indeed, we have killed the Messiah, Jesus the son of Mary, the messenger of Allāh." And they did not kill him, nor did they crucify him; but [another] was made to resemble him to them. And indeed, those who differ over it are in doubt about it. They have no knowledge of it except the following of assumption. And they did not kill him, for certain.”*
 
 > [4:158](https://quran.com/4?startingVerse=158&translations=131%2C19%2C20%2C22): *Rather, Allāh raised him to Himself. And ever is Allāh Exalted in Might and Wise.*
