@@ -43,7 +43,9 @@ Since Allah gave humans the choice of believing or not believing, there is no fo
 When Allah created human souls, He asked them if they believed in Him. And all souls testified that they believe in Him. Allah then sent humans to the world through birth as babies (in Islam, we believe the soul is given to the baby on approximately the 120th day (4th month)).
 
 The world is created as a test bed for humans (and Jinn, who were created much before humans and live much longer). Allah says He sent us down to the world to see who among us is good and who is not.
+
 > [18:7](https://quran.com/18?startingVerse=7&translations=131%2C19%2C20) “Indeed, We have made that which is on the earth adornment for it that We may test them [as to] which of them is best in deed.”
+
 > [29:3](https://quran.com/29?startingVerse=3&translations=131%2C19%2C20) “But We have certainly tried those before them, and Allāh will surely make evident those who are truthful, and He will surely make evident the liars.”
 
 **How a human can know why he is created and what is good and what is bad**
@@ -73,14 +75,17 @@ Mother Mary, peace be upon her, gave birth to Jesus (PBUH) without a father, and
 #### Jesus’s Miracles
 In Islam, we believe all prophets showed some form of miracle by the permission of God. The miracles Jesus (PBUH) showed:
 > [21:31](https://quran.com/21?startingVerse=91&translations=131%2C19%2C20%2C22) And (remember) her (Mary) who guarded her chastity: We breathed into her of Our spirit, and We made her and her son a sign for all peoples
+
 > [2:87](https://quran.com/2?startingVerse=87&translations=131%2C19%2C20%2C22) “We gave Moses the Book and followed him up with a succession of messengers; We gave Jesus the son of Mary Clear (Signs) and strengthened him with the holy spirit. Is it that whenever there comes to you a messenger with what ye yourselves desire not, ye are puffed up with pride?- Some ye called impostors, and others ye slay!”
+
 > [3:46](https://quran.com/3?startingVerse=46&translations=131%2C19%2C20%2C22)  “He will speak to the people in the cradle and in maturity and will be of the righteous."
 And many others such as healing blind, resurrecting the dead, etc.
 
 #### Crucifixion in Islam
 We believe Jesus was not crucified, and he is not dead! He was raised to the second heaven and is still alive (we believe there are seven heavens (*sama*), and the universe we see is the first heaven). He will come back, descend, live as a Muslim, and slay the Dajjal (Antichrist).
-> 4:157: *And [for] their saying, "Indeed, we have killed the Messiah, Jesus the son of Mary, the messenger of Allāh." And they did not kill him, nor did they crucify him; but [another] was made to resemble him to them. And indeed, those who differ over it are in doubt about it. They have no knowledge of it except the following of assumption. And they did not kill him, for certain.”*
-> 4:158: *Rather, Allāh raised him to Himself. And ever is Allāh Exalted in Might and Wise.*
+> [4:157](https://quran.com/4?startingVerse=157&translations=131%2C19%2C20%2C22): *And [for] their saying, "Indeed, we have killed the Messiah, Jesus the son of Mary, the messenger of Allāh." And they did not kill him, nor did they crucify him; but [another] was made to resemble him to them. And indeed, those who differ over it are in doubt about it. They have no knowledge of it except the following of assumption. And they did not kill him, for certain.”*
+
+> [4:158](https://quran.com/4?startingVerse=158&translations=131%2C19%2C20%2C22): *Rather, Allāh raised him to Himself. And ever is Allāh Exalted in Might and Wise.*
 
 ## What does this all tell us?
 As I wrote in [my previous post](2024-12-21-war-conflict-religion-being-good.md), all prophets guide humans to good. If we are committing sins like murder, lying, etc., then we are not following their teachings. And we do not love them as we claim. If we love God, if we love His prophets, we have to be good in this world to pass this worldly test and earn the hereafter.
