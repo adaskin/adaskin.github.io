@@ -60,7 +60,7 @@ Well, it took a while to come to Prophet Jesus. Before getting to Prophet Jesus,
 - In Islam, 
   - although we believe prophets can do some things without a specific order from God, they do not follow their inner desires. If they make a mistake in their decisions, God corrects them. They do not commit any sin or go against God’s order. They only make small mistakes because of errors in judgement. That means everything done or said by a prophet which is not corrected by him later is confirmed by God.
   - all prophets were the best people among their people. They were the best in their deeds.
-  - if you do not love every prophet and equally believe in his teachings, you cannot be a Muslim. In Islam, you have to love all prophets more than yourself.
+  - if you do not love every prophet and equally believe in his teachings, you cannot be a Muslim. In Islam, you have to love all prophets more than yourself.  
     **Do we believe in the Bible then?**
     We believe (and it is also a historical fact) that the guidance Allah gave to Moses and later to Jesus was distorted (some new things were added, and some things were rewritten or discarded). There are parts that contain Allah’s true message, and some parts are distorted. If we hear something from the Bible, if it is not obviously goes against Islamic beliefs, we neither deny nor accept it. Because, it may be the true teaching of God or may not.
 
@@ -77,7 +77,8 @@ In Islam, we believe all prophets showed some form of miracle by the permission 
 
 > [2:87](https://quran.com/2?startingVerse=87&translations=131%2C19%2C20%2C22) “We gave Moses the Book and followed him up with a succession of messengers; We gave Jesus the son of Mary Clear (Signs) and strengthened him with the holy spirit. Is it that whenever there comes to you a messenger with what ye yourselves desire not, ye are puffed up with pride?- Some ye called impostors, and others ye slay!”
 
-> [3:46](https://quran.com/3?startingVerse=46&translations=131%2C19%2C20%2C22)  “He will speak to the people in the cradle and in maturity and will be of the righteous."
+> [3:46](https://quran.com/3?startingVerse=46&translations=131%2C19%2C20%2C22)  “He will speak to the people in the cradle and in maturity and will be of the righteous."  
+ 
 And many others such as healing blind, resurrecting the dead, etc.
 
 #### Crucifixion in Islam
