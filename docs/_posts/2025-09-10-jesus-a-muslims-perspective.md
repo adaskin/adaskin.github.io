@@ -68,7 +68,7 @@ In conclusion, we as Muslims have to believe that Jesus was a perfect human bein
 #### Mary (PBUH)
 As Muslims, we believe all mothers, wives, and daughters of prophets are our mothers. We have to show the utmost respect to them. When we talk about Eve, Hagar, Sarah, Aisha, Fatima, or Mary, peace be upon them, we call them Mother Eve, Mother Mary, etc. And we show them equally utmost respect. We believe they were also the best among people.
 
-Mother Mary, peace be upon her, gave birth to Jesus (PBUH) without a father, and she was innocent. In the Quran, there is a whole chapter named after her (see Suratul Maryam).
+Mother Mary, peace be upon her, gave birth to Jesus (PBUH) without a father, and she was innocent. In the Quran, there is a whole chapter named after her (see [Suratul Maryam](https://quran.com/maryam) ).
 
 #### Jesus’s Miracles
 In Islam, we believe all prophets showed some form of miracle by the permission of God. The miracles Jesus (PBUH) showed:
