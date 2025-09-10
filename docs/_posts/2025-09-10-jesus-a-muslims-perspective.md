@@ -84,6 +84,6 @@ We believe Jesus was not crucified, and he is not dead! He was raised to the sec
 > 4:158: *Rather, Allāh raised him to Himself. And ever is Allāh Exalted in Might and Wise.*
 
 ## What does this all tell us?
-As I wrote in [my previous post](2024-12-21-war-conflict-religion-being-good.md), all prophets guide humans to good. If we are committing sins like murder, lying, etc., then we are not following their teachings. And we do not love them as we claim. If we love God, if we love His prophets, we have to be good by following His teaching in this world to pass this worldly test and earn the hereafter.
+As I wrote in [my previous post](2024-12-21-war-conflict-religion-being-good.md), all prophets guide humans to good. If we are committing sins like murder, lying, etc., then we are not following their teachings. And we do not love them as we claim. If we love God, if we love His prophets, we have to be good in this world to pass this worldly test and earn the hereafter.
 
 {% include disqus.html %}
