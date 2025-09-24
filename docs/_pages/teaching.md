@@ -20,7 +20,7 @@ I have taught a variety of computer science courses, including data mining (in P
 [Introduction to Computer Engineering (Fall 2024)](https://github.com/adaskin/bil111intro2cs/)  
 
 ### Older
-[Compiler Design](https://sites.google.com/view/adaskin/compiler)  
+[Compiler Design (google slides)](https://sites.google.com/view/adaskin/compiler)  
 [Data Structures and Algorithms](https://sites.google.com/view/adaskin/data-structures-and-algorithms)  
 [Data mining](https://github.com/adaskin/teaching-data-mining)  
 [C Programming](https://sites.google.com/view/adaskin/c-programming)  
