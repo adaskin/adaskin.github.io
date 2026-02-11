@@ -35,8 +35,8 @@ They do not provide multithreading themselves. If they are scheduled to run on s
 Green threads (fibers) can be considered running `stackful coroutines` since they describe tasks with a stack frame. 
 
 Below is an example of a couroutine with Python generators:
+
 ```python
-import string
 def generator_function():
    for i in range(10):
        print(f"generator returning {i} with yield")
@@ -52,7 +52,8 @@ value = gen.send("b") #runs till next yield i
 print("generated value:", value)
 ```
 In this case, we are sending a value to the generator and it yields with value `i` in the next iteration.  The output would be
-```bash
+
+```text
 generator returning 0 with yield
 generated value: 0
 given char:  a
@@ -66,9 +67,7 @@ generated value: 2
 Note that this is not a multithreaded program. However, we can convert this into multithreading  by using threadpool, that is `concurrent.futures.ThreadPoolExecutor()`, with the argument `send` function. In this way `send()` can be called by different threads at different times. However, calls to the generator needs synchronization: That is, the send calls from different threads cannot interleave. An implementation with a simple lock mechanism would be as follows(note that the lock makes only one `send()` at a time):
 
 ```python
-import string
 import concurrent.futures
-import time
 import threading
 class thread_sync:
     def __init__(self, generator):
