@@ -1,0 +1,9 @@
+---
+title: "Quantum Distortion Model for Running Variational Quantum Algorithms without Error Corrections"
+author: "Ammar Daskin"
+date: 2025-10-3
+abstract: "The classical distortion models similarly to temporal data analysis provide a way to predict the trends in the output of the algorithms and discard the anomalies in the output which may impact the accuracy of the method. In this paper, we introduce a quantum distortion modeling framework that enables variational quantum algorithms to operate effectively in the presence of errors without traditional error correction. Drawing inspirations from classical distortion-tolerant computing, we describe different distortions measures and formulation which can be used in variational quantum algorithms. In particular, we develop mathematical foundations for distortion metrics including energy progression, parameter stability, and state fidelity distortions, and demonstrate their applicability to  variational quantum eigensolver, quantum approximate optimization algorithm, and quantum power method. We believe this paper will provide a milestone for distortion-aware quantum computing  which can expand the practical applicability of the pre-fault-tolerant era devices to problems where approximate solutions provide sufficient value, representing a paradigm shift from exact error elimination to managed accuracy degradation. **Keywords: Variational Quantum Algorithms, Quantum Optimization, Quantum Distortion Model, Quantum Error Correction, Quantum Error Mitigation**" 
+cite: "Daskin, A. Quantum distortion model for running variational quantum algorithms without error corrections. Discov. Quantum Sci. 2, 2 (2026). https://doi.org/10.1007/s44464-026-00006-y"
+link: " https://doi.org/10.1007/s44464-026-00006-y" 
+code: "https://github.com/adaskin/quantum-distortion-model"
+---

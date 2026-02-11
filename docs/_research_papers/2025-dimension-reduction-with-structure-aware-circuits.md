@@ -1,0 +1,8 @@
+---
+title: "Dimension reduction with structure-aware quantum circuits for hybrid machine learning"
+author: "Ammar Daskin"
+date: 2025-07-31
+abstract: "Schmidt decomposition of a vector can be understood as writing the singular value decomposition (SVD) in vector form. A vector can be written as a linear combination of tensor product of two dimensional vectors by recursively applying Schmidt decompositions via SVD to all subsystems. Given a vector expressed as a linear combination of tensor products, using only the k principal terms yields a k-rank approximation of the vector. Therefore, writing a vector in this reduced form allows to retain most important parts of the vector while removing small noises from it, analogous to SVD-based denoising. In this paper, we show that quantum circuits designed based on a value k (determined from the tensor network decomposition of the mean vector of the training sample) can approximate the reduced-form representations of entire datasets. We then employ this circuit ansatz with a classical neural network head to construct a hybrid machine learning model. Since the output of the quantum circuit for an 2n dimensional vector is an n dimensional probability vector, this provides an exponential compression of the input and potentially can reduce the number of learnable parameters for training large-scale models. We use datasets provided in the Python scikit-learn module for the experiments. The results confirm the quantum circuit is able to compress data successfully to provide effective k-rank approximations to the classical processing component."
+link: "https://arxiv.org/abs/2508.00048" 
+code: "https://github.com/adaskin/structure-aware-circuits"
+---
