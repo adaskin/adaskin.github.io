@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Green threads, Coroutines, and Goroutines"
+title:  "Green threads"
 date:   2024-05-08 12:31:19 +0300
 categories: hpc
 tags: multithread programming 
@@ -37,19 +37,22 @@ Green threads (fibers) can be considered running `stackful coroutines` since the
 Below is an example of a couroutine with Python generators:
 
 ```python
-def generator_function():
-   for i in range(10):
-       print(f"generator returning {i} with yield")
-       given = (yield i)
-       print("given char: ", given)
-  
-gen = generator_function()
-value = gen.__next__() #first yield i
-print("generated value:", value)
-value = gen.send("a") #runs till next yield i
-print("generated value:", value)
-value = gen.send("b") #runs till next yield i
-print("generated value:", value)
+1. def generator_function():
+2.    for i in range(10):
+3.       print(f"generator returning {i} with yield")
+4.       given = (yield i)
+5.       print("given char: ", given)
+```
+then we use this as
+
+```
+1. gen = generator_function()
+2. value = gen.__next__() #first yield i
+3. print("generated value:", value)
+4. value = gen.send("a") #runs till next yield i
+5. print("generated value:", value)
+6. value = gen.send("b") #runs till next yield i
+7. print("generated value:", value)
 ```
 In this case, we are sending a value to the generator and it yields with value `i` in the next iteration.  The output would be
 
@@ -67,45 +70,48 @@ generated value: 2
 Note that this is not a multithreaded program. However, we can convert this into multithreading  by using threadpool, that is `concurrent.futures.ThreadPoolExecutor()`, with the argument `send` function. In this way `send()` can be called by different threads at different times. However, calls to the generator needs synchronization: That is, the send calls from different threads cannot interleave. An implementation with a simple lock mechanism would be as follows(note that the lock makes only one `send()` at a time):
 
 ```python
-import concurrent.futures
-import threading
-class thread_sync:
-    def __init__(self, generator):
-        self.generator = generator
-        self.lock = threading.Lock()
+1. class thread_sync:
+2.     def __init__(self, generator):
+3.         self.generator = generator
+4.         self.lock = threading.Lock()
+5. 
+6.     def __iter__(self):
+7.         return self
+8. 
+9.     def next(self, msg=None):
+10.         r = None
+11.         try:
+12.             if msg == None:
+13.                 with self.lock:
+14.                     r = self.generator.__next__()
+15.             else:
+16.                 with self.lock:
+17.                     r = self.generator.send(msg)
+18.         except StopIteration:
+19.             pass
+20.         return r
+```
+We use this class as:
 
-    def __iter__(self):
-        return self
-
-    def next(self, msg=None):
-        r = None
-        try:
-            if msg == None:
-                with self.lock:
-                    r = self.generator.__next__()
-            else:
-                with self.lock:
-                    r = self.generator.send(msg)
-        except StopIteration:
-            pass
-        return r
-
-def generator_function():
-    for i in range(100):
-        given = (yield i)
-        time.sleep(0.1)
-        print("threadid:{}, given char:{}, prev yield:{}"
-                .format(threading.current_thread().ident, given, i))
-
-gen = generator_function()
-tgen = thread_sync(gen)
-tgen.next()
-with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executer:
-    yield_values = list(executer.map(tgen.next, string.ascii_letters))
-
-for val in yield_values:
-    if val != None:
-        print("value:", val)
+```python
+1. def generator_function():
+2.     for i in range(100):
+3.         given = (yield i)
+4.         time.sleep(0.1)
+5.         print("threadid:{}, given char:{}, prev yield:{}"
+6.                 format(threading.current_thread().ident, given, i))
+```
+Again we use this as:
+```python
+1. gen = generator_function()
+2. tgen = thread_sync(gen)
+3. tgen.next()
+4. with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executer:
+5.     yield_values = list(executer.map(tgen.next, string.ascii_letters))
+6. 
+7. for val in yield_values:
+8.     if val != None:
+9.         print("value:", val)
 
 ```
 As a final remark note that coroutines are much more than the simple generator we have designed. And they can be very useful for asynchronous tasks. See [python doc](https://docs.python.org/3/library/asyncio-task.html) for explanation.
