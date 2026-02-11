@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Green threads, goroutines, and coroutines"
+title:  "Green threads, Coroutines, and Goroutines"
 date:   2024-05-08 12:31:19 +0300
 categories: hpc
-tags: multithread programming greenthreads coroutines goroutines
+tags: multithread programming 
 comments: false
 ---
 
