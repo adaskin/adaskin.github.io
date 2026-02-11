@@ -4,7 +4,7 @@ title:  "Green threads, goroutines, and coroutines"
 date:   2024-05-08 12:31:19 +0300
 categories: hpc
 tags: multithread programming greenthreads coroutines goroutines
-comments: true
+comments: false
 ---
 
 {% include mathjax.html %}
@@ -116,5 +116,5 @@ Discussion on the usefulness of fibers:
 [https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p0866r0.pdf](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p0866r0.pdf)   
 [https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1520r0.pdf](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1520r0.pdf)    
 
-{% include disqus.html %}
+
 
