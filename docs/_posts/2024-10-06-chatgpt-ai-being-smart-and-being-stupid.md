@@ -6,7 +6,7 @@ categories: ai
 tags: llm ai chatgpt
 comments: true
 ---
-{% include mathjax.html %}
+
 
 
 We get to know the large language models (LLM) through one of its example ChatGPT's astonishing
@@ -34,6 +34,4 @@ Maybe **being not stupid** also means not doing the most unexpected in most situ
 
 I think there are many lessons we can learn by emulating an interacting-human (virtual human) and of course should not forget(or behave non-existent) how these tools can be used for harm.
 
-___
 
-{% include disqus.html %}

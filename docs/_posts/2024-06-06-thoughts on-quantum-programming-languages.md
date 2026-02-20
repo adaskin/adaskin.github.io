@@ -6,7 +6,7 @@ categories: quantum-computing
 tags: quantum programming language
 comments: true
 ---
-{% include mathjax.html %}
+
 
 There are a few quantum programming languages (QPL). While looking at one of the promising QPL [Silq](https://silq.ethz.ch) and its comparison to other QPLs, I have thought how I would define some basics for a QPL. 
 
@@ -60,4 +60,4 @@ Measurement is a kind of an operation too. Therefore, a class with a few related
 
 The rest is left for the developers:smile:
 
-{% include disqus.html %}
+

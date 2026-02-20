@@ -6,7 +6,7 @@ categories: politics
 tags: religion politics
 comments: true
 ---
-{% include mathjax.html %}
+
 While looking at the events happening in the region, as a muslim I often seek guidence from Quran. While reading I came across the following verses:
 
 - 2-122. O Children of Israel! Remember My favor which I bestowed upon you and that I preferred you over the nations. 
@@ -24,4 +24,3 @@ How should someone being preferred by God behave?
 
 I think the answer is  obvious. If we want to be included in this covenant, first we should start with not having the feeling (or at least having decency to not say) that we are chosen and somehow above any other human being because at the end of the verse Allah clearly says those who are unjust are not included in this covenant and Abraham's prayers. So instead of making meaningless arguments, we should try to correct our actions and try to refrain from being unjust and a wrongdoer as much as we can... 
 
-{% include disqus.html %}

@@ -6,7 +6,7 @@ categories: AI
 tags: AI
 comments: true
 ---
-{% include mathjax.html %}
+
 
 AI has been in use for almost everything (including partially editing this short writing :smiley:). So far, I think it's been making life easier for those of us who were fortunate enough to have received an old-style education. However, looking to the future, I am a little afraid that it might lead us into another era of [Emperor Qin Shi Huang](https://en.wikipedia.org/wiki/Burning_of_books_and_burying_of_scholars).
 
@@ -24,4 +24,3 @@ When this is combined with the problems inherent in capitalism and the global ec
 I hope I am wrong but I believe the most significant thing AI will do is to just add more to the greed of the wealthy.
 
 
-{% include disqus.html %}

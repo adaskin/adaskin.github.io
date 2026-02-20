@@ -6,7 +6,7 @@ categories: politics
 tags: religion politics
 comments: true
 ---
-{% include mathjax.html %}
+
 
 **Why am I writing this?**
 Looking at the genocide happening to Palestinians, I wonder what we as humans are capable of. Then I wonder what kind of anger or motivation a human can have to inflict this pain on another life.
@@ -90,4 +90,3 @@ We believe Jesus was not crucified, and he is not dead! Another person (the one 
 ## What does this all tell us?
 As I wrote in [my previous post](2024-12-21-war-conflict-religion-being-good.md), all prophets guide humans to good. If we are committing sins like murder, lying, etc., then we are not following their teachings. And we do not love them as we claim. If we love God, if we love His prophets, we have to be good in this world to pass this worldly test and earn the hereafter.
 
-{% include disqus.html %}

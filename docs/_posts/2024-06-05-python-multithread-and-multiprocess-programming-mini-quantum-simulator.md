@@ -231,4 +231,5 @@ def prob_of_a_qubit_with_pool(psi, qubit)
             fshared[i] += flocal[i] 
     return fshared
 ```
+
 {% include disqus.html %}
