@@ -1,0 +1,7 @@
+---
+title: "Quantum Voting Protocol for Centralized and Distributed Voting Based on Phase-Flip Counting"
+author: "Ali Emre Aydin and Ammar Daskin"
+date: 2025-10-15
+abstract: "In this paper, we introduce a novel quantum voting  protocol that leverages quantum superposition and entanglement to achieve secure, anonymous voting in both centralized and distributed settings. Our approach utilizes phase-flip encoding on entangled candidate states, where votes are recorded as controlled phase operations conditioned on voter identity registers. The protocol employs a simplified tallying mechanism based on candidate register measurements. We provide comprehensive mathematical formulations for  a centralized single-machine model suitable for local voting systems, and a distributed quantum channel model enabling remote voting with enhanced security through entanglement verification. The efficiency of the protocol stems from its use of basic quantum gates (Hadamard and controlled-Z) and its ability to count votes through quantum measurements rather than iterative classical counting. We demonstrate the practicality of the protocol through examples with 4 voters (2 candidates) and 8 voters (3 candidates), showing exact probability preservation and correct vote tallying. The protocol ensures voter anonymity through quantum superposition, prevents double-voting through entanglement mechanisms, and can offer  speedup potential for large-scale elections."
+link: "https://doi.org/10.5281/zenodo.17358730" 
+---
