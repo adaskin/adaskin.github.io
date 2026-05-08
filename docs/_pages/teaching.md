@@ -20,4 +20,5 @@ I have taught a variety of computer science courses, including data mining (in P
 [Data mining](https://github.com/adaskin/teaching-data-mining)  
 [C Programming](https://sites.google.com/view/adaskin/c-programming)  
 [Python Programming](https://sites.google.com/view/adaskin/python-programming)  
-[Object oriented programming with Java](https://sites.google.com/view/adaskin/oo-programming)  
+[Object oriented programming with Java](https://sites.google.com/view/adaskin/oo-programming)   
+[Algorithm Design and Analysis (Lecture Notes from 2021-2022)](https://sites.google.com/view/adaskin/algorithms)

@@ -1,0 +1,8 @@
+---
+title: "Mitigating Frequency Learning Bias in Quantum Models via Multi-Stage Residual Learning"
+author: "Ammar Daskin"
+date: 2026-03-04
+abstract: "Quantum machine learning models based on parameterized circuits can be viewed as Fourier series approximators. However, they often struggle to learn functions with multiple frequency components, particularly high-frequency or non-dominant ones; a phenomenon we term the quantum Fourier parameterization bias. Inspired by recent advances in classical Fourier neural operators (FNOs), we adapt the multi-stage residual learning idea to the quantum domain, iteratively training additional quantum modules on the residuals of previous stages. We evaluate our method on a synthetic benchmark composed of spatially localized frequency components with diverse envelope shapes (Gaussian, Lorentzian, triangular). Systematic experiments show that the number of qubits, the encoding scheme, and residual learning are all crucial for resolving multiple frequencies; residual learning alone can improve test MSE significantly over a single-stage baseline trained for the same total number of epochs. Our work provides a practical framework for enhancing the spectral expressivity of quantum models and offers new insights into their frequency-learning behavior.  "
+link: "https://arxiv.org/abs/2603.10083" 
+code: "https://github.com/adaskin/quantum-residual-learning"
+---
