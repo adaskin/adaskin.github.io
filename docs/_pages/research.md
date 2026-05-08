@@ -22,7 +22,8 @@ Main research interest and themes:
 
 **Latest Research Papers**   
 <div class="research-papers">
-  {% for paper in site.research_papers %}
+  {% assign sorted_papers = site.research_papers | sort: "date" | reverse %}
+  {% for paper in sorted_papers %}
     <div class="paper-card" onclick="toggleAbstract(this)">
       {% if paper.image %}
       <img src="{{ paper.image }}" alt="{{ paper.title }}" class="paper-image">
