@@ -19,8 +19,6 @@ Main research interest and themes:
 **Tutorials** 
 - [A brief tutorial on grouping set elements on quantum computers](https://adaskin.github.io/quantum-grouping-set-elements)  
   - *it generates groups as quantum states in O(1) time*
-  
-- [A tutorial on Simon's Polynomial Algorithm for the Dihedral Coset Problem](https://adaskin.github.io/a-tutorial-on-simons-algorithm)
 
 **Latest Research Papers**   
 <div class="research-papers">
